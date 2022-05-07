@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-20.04
     env:
       DL_URL: https://github.com/DynamicTreesTeam/DynamicTrees/archive/refs/heads/develop/1.16.5.zip
-      Pack_Name: 1.16.5
+      Pack_Name: DynamicTrees-develop-1.16.5
       Open_Pack_Name:
     steps:
     - uses: actions/checkout@v2
