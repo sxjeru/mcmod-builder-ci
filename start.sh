@@ -5,5 +5,7 @@ sudo apt install openjdk-8-jdk openjdk-18-jdk wget -y
 wget $DL_URL
 unzip $Pack_Name.zip
 cd $Open_Pack_Name
+pwd
+ls
 sudo ./gradlew build -Dfile.encoding=UTF-8 --info
 cp -r build/libs /opt/libs
