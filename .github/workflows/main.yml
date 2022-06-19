@@ -5,9 +5,9 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     env:
-      DL_URL: https://github.com/FortressNebula/Create_Aeronautics/archive/refs/heads/master.zip
-      Pack_Name: master
-      Open_Pack_Name: Create_Aeronautics-master
+      DL_URL: https://github.com/Asek3/Rubidium/archive/refs/heads/1.16/dev.zip
+      Pack_Name: dev
+      Open_Pack_Name: Rubidium-1.16-dev
     steps:
     - uses: actions/checkout@v2
     - run: 
