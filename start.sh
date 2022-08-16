@@ -1,8 +1,8 @@
 #!/bin/sh
 sudo apt update -y
 sudo apt upgrade -y
-sudo apt-get remove openjdk*
 sudo apt install openjdk-8-jdk wget -y
+find / -name java
 #wget $DL_URL
 #unzip $Pack_Name.zip
 #cd $Open_Pack_Name
