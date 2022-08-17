@@ -8,15 +8,15 @@ sudo apt install wget -y
 #sudo chmod 777 gradlew
 #sudo rm -rf /usr/lib/jvm/*
 #sudo apt install openjdk-8-jdk
-#unset JAVA_HOME
-#JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/bin/java
-#export JAVA_HOME
-#sudo env
 sudo update-java-alternatives -s adoptopenjdk-8-hotspot-amd64
+#unset JAVA_HOME
+JAVA_HOME=/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64
+export JAVA_HOME
+#sudo env
 java -version
 sudo gradle -Dorg.gradle.java.home='/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64' -v
 #sudo ./gradlew build -Dfile.encoding=UTF-8 --info
-#sudo ./gradlew build -Dorg.gradle.java.home='/usr/lib/jvm/java-8-openjdk-amd64/bin/java' -Dfile.encoding=UTF-8 --info
+#sudo ./gradlew build -Dorg.gradle.java.home='/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64' -Dfile.encoding=UTF-8 --info
 cp -r build/libs /opt/libs
 
 
