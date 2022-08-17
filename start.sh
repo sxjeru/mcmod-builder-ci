@@ -6,7 +6,9 @@ sudo apt install wget -y
 #unzip $Pack_Name.zip
 #cd $Open_Pack_Name
 sudo chmod 777 gradlew
-sudo export JAVA_HOME='/usr/lib/jvm/temurin-8-jdk-amd64/bin/java'
+sudo rm -rf /usr/lib/jvm/*
+sudo apt install openjdk-8-jdk
+#sudo export JAVA_HOME='/usr/lib/jvm/temurin-8-jdk-amd64/bin/java'
 sudo env
 java -version
 sudo gradle -v
