@@ -6,7 +6,9 @@ sudo apt install wget -y
 #unzip $Pack_Name.zip
 #cd $Open_Pack_Name
 sudo chmod 777 gradlew
-export JAVA_HOME=/usr/lib/jvm/temurin-8-jdk-amd64/bin/java
+sudo export JAVA_HOME='/usr/lib/jvm/temurin-8-jdk-amd64/bin/java'
+sudo env
 java -version
-#sudo ./gradlew build -Dfile.encoding=UTF-8 --info
+sudo gradle -v
+#sudo ./gradlew build -Dorg.gradle.java.home='/usr/lib/jvm/temurin-8-jdk-amd64/bin/java' -Dfile.encoding=UTF-8 --info
 cp -r build/libs /opt/libs
