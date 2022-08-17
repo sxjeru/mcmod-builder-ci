@@ -8,8 +8,7 @@ sudo apt install wget -y
 sudo chmod 777 gradlew
 sudo rm -rf /usr/lib/jvm/*
 sudo apt install openjdk-8-jdk
-JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/bin/java
-export PATH=$JAVA_HOME:$PATH
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/bin/java
 sudo env
 java -version
 sudo gradle -v
