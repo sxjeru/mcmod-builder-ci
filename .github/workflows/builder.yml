@@ -1,6 +1,8 @@
 name: mod-build
 on: 
-  [push, workflow_dispatch]
+  push:
+    branches: [ "master" ]
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-20.04
