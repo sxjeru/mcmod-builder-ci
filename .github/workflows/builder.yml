@@ -7,9 +7,9 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     env:
-      DL_URL: https://github.com/HbmMods/Hbm-s-Nuclear-Tech-GIT/archive/refs/heads/master.zip
-      Pack_Name: master
-      Open_Pack_Name: Hbm-s-Nuclear-Tech-GIT-master
+      DL_URL: https://github.com/PssbleTrngle/CreateDeco/archive/refs/heads/1.18-main.zip
+      Pack_Name: 1.18-main
+      Open_Pack_Name: CreateDeco-1.18-main
     steps:
     - uses: actions/checkout@v2
     - run: 
