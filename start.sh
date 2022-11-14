@@ -8,7 +8,7 @@ cd $Open_Pack_Name
 sudo chmod 777 gradlew
 #sudo rm -rf /usr/lib/jvm/*
 #sudo apt install openjdk-8-jdk
-sudo update-java-alternatives -s temurin-8-jdk-amd64
+sudo update-java-alternatives -s temurin-17-jdk-amd64
 #unset JAVA_HOME
 #sudo env
 #JAVA_HOME=/usr/lib/jvm/temurin-8-jdk-amd64
