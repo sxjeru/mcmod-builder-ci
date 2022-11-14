@@ -7,9 +7,9 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     env:
-      DL_URL: https://github.com/dong031001/InWorldCrafting/archive/refs/heads/master.zip
-      Pack_Name: master
-      Open_Pack_Name: InWorldCrafting-master
+      DL_URL: https://github.com/sxjeru/coulds/raw/master/temp/litematica.zip
+      Pack_Name: litematica
+      Open_Pack_Name: litematica
     steps:
     - uses: actions/checkout@v2
     - run: 
