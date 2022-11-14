@@ -7,9 +7,9 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     env:
-      DL_URL: https://github.com/sxjeru/coulds/raw/master/temp/litematica.zip
-      Pack_Name: litematica
-      Open_Pack_Name: litematica
+      DL_URL: https://github.com/sxjeru/coulds/raw/master/temp/litematica-pre.zip
+      Pack_Name: litematica-pre
+      Open_Pack_Name: litematica-pre
     steps:
     - uses: actions/checkout@v2
     - run: 
