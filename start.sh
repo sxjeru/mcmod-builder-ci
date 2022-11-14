@@ -17,7 +17,7 @@ sudo update-java-alternatives -s temurin-8-jdk-amd64
 java -version
 #sudo gradle -Dorg.gradle.java.home='/usr/lib/jvm/temurin-8-jdk-amd64' -v
 sudo ./gradlew -v
-sudo ./gradlew build -Dorg.gradle.java.home='/usr/lib/jvm/adoptopenjdk-8-hotspot-amd64' -Dfile.encoding=UTF-8 --info
+sudo ./gradlew build -Dorg.gradle.java.home='/usr/lib/jvm/temurin-17-jdk-amd64' -Dfile.encoding=UTF-8 --info
 cp -r build/libs /opt/libs
 
 
