@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-20.04
     env:
       DL_URL: https://github.com/The-Aether-Team/The-Aether/archive/refs/heads/1.16.zip
-      Pack_Name: The-Aether-1.16
+      Pack_Name: 1.16
       Open_Pack_Name: The-Aether-1.16
     steps:
     - uses: actions/checkout@v2
