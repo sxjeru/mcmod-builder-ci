@@ -7,9 +7,9 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     env:
-      DL_URL: https://github.com/The-Aether-Team/The-Aether/archive/refs/heads/1.16.zip
-      Pack_Name: 1.16
-      Open_Pack_Name: The-Aether-1.16
+      DL_URL: https://github.com/vfyjxf/JEI-Utilities/archive/refs/heads/1.18.2.zip
+      Pack_Name: 1.18.2
+      Open_Pack_Name: JEI-Utilities-1.18.2
     steps:
     - uses: actions/checkout@v2
     - run: 
