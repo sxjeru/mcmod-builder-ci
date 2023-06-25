@@ -7,9 +7,9 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     env:
-      DL_URL: https://github.com/TeamGalacticraft/Galacticraft/archive/refs/heads/minecraft/1.19.4.zip
-      Pack_Name: 1.19.4
-      Open_Pack_Name: Galacticraft-minecraft-1.19.4
+      DL_URL: https://github.com/TeamGalacticraft/GalacticraftAPI/archive/refs/heads/main.zip
+      Pack_Name: main
+      Open_Pack_Name: GalacticraftAPI-main
     steps:
     - uses: actions/checkout@v2
     - run: 
