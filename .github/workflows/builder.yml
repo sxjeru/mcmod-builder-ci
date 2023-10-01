@@ -7,9 +7,9 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     env:
-      DL_URL: https://github.com/mekanism/Mekanism/archive/refs/heads/1.20.x.zip
-      Pack_Name: 1.20.x
-      Open_Pack_Name: Mekanism-1.20.x
+      DL_URL: https://github.com/mekanism/Mekanism/archive/4a78cb65b11fac7403a12ba141f34c5228a929ca.zip
+      Pack_Name: 4a78cb65b11fac7403a12ba141f34c5228a929ca
+      Open_Pack_Name: Mekanism-4a78cb65b11fac7403a12ba141f34c5228a929ca
     steps:
     - uses: actions/checkout@v2
     - run: 
